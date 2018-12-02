@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="pass" value="123"/>
+  <parameter name="url" value="www.flipkart.com"/>
+  <parameter name="username" value="testuser"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="carLoan.parameterExample">
+        <methods>
+          <include name="toTestUsershouldAbleSelectCarType"/>
+        </methods>
+      </class> <!-- carLoan.parameterExample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
